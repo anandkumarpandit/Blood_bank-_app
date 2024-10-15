@@ -9,19 +9,22 @@ const registerController = async (req, res) => {
     if (exisitingUser) {
       return res.status(200).send({
         success: false,
-        message: "User ALready exists",
+        message: "User Already exists",
       });
     }
-    //hash password
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(req.body.password, salt);
+    // hash password
+    // const salt = await bcrypt.genSalt(10);
+    // const hashedPassword = await bcrypt.hash(req.body.password.salt);
+    // rest data
+    const hashedPassword = await bcrypt.hash(req.body.password, 10);
     req.body.password = hashedPassword;
-    //rest data
+    // Further logic for registration
+    // res.status(200).json({ message: 'User registered successfully' });
     const user = new userModel(req.body);
     await user.save();
     return res.status(201).send({
       success: true,
-      message: "User Registerd Successfully",
+      message: "User Registered Successfully",
       user,
     });
   } catch (error) {
