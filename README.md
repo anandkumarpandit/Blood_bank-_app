@@ -8,28 +8,30 @@
 **Server:** Node, Express, MongoDB
 
 
-## Run Locally
+### Run Locally
 
 Clone the project
 
 ```bash
-  git clone 
+  git clone  https://github.com/anandkumarpandit/Blood_bank-_app
 ```
 
 Go to the project directory
 
 
-Install dependencies
+Install dependencies for frontend and backend
 
-
+```bash
   npm install
-
+```
 
 Start the server
 
 ```bash
   npm run start
 ```
+
+
 
 
 
