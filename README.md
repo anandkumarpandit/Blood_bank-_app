@@ -1,5 +1,39 @@
 # Blood bank app
 
+
+## Tech Stack
+
+**Client:** React, contextApi, TailwindCSS
+
+**Server:** Node, Express, MongoDB
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone 
+```
+
+Go to the project directory
+
+
+Install dependencies
+
+
+  npm install
+
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+
+
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/dbzjoc5rr/image/upload/v1741371078/ptvicsi9wvcga4k1el3h.png)
