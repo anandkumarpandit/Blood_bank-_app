@@ -37,7 +37,6 @@ Start the server
 
 
 
-
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/dbzjoc5rr/image/upload/v1741371078/ptvicsi9wvcga4k1el3h.png)
