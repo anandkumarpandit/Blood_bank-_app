@@ -1,3 +1,4 @@
+#The Blood Bank App is a full-stack web application designed to simplify and digitize the process of blood donation and management. It connects donors, hospitals, and blood banks on a single platform, allowing them to manage blood requests, inventory, and donations efficiently. The system supports role-based access to ensure that each user—donor, hospital staff, or admin—has access to features relevant to their needs.
 
 # Blood bank app
 
